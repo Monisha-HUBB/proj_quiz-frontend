@@ -1,0 +1,52 @@
+.results-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.results-title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.result-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-3px);
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #34495e;
+}
+
+.result-score {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #2ecc71;
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-button {
+        background: #484856;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+   
+}
