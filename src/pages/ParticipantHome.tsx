@@ -29,7 +29,7 @@ useEffect(() => {
       alert('Please login again');
       navigate('/');
     });
-}, []);
+}, [navigate]);
 
   const handleLogout = () => {
     localStorage.removeItem('token');

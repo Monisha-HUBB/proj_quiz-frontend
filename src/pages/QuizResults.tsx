@@ -29,7 +29,7 @@ function QuizResults() {
         alert('Please login again');
         navigate('/');
       });
-  }, []);
+  }, [navigate]);
 
   const handleBack = () => {
     navigate('/participant/home')

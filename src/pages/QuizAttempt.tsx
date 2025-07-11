@@ -61,13 +61,11 @@ useEffect(() => {
 
 
 const handleSubmit = async () => {
-  const token = localStorage.getItem('token');
-
   const response = await fetch('http://localhost:8085/user/submit-quiz', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${token}`,
+      'Authorization': `Bearer ${localStorage.getItem('token')}`,
     },
     body: JSON.stringify({
       quizId: parseInt(quizId || '0'),
